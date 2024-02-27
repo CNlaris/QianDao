@@ -20,8 +20,6 @@ def signXiaoGuanJia():
     referer = 'https://servicewechat.com/wx23d8d7ea22039466/' + str(daily) + '/page-frame.html'
     daka_day = datetime.now().strftime('%Y-%m-%d')
     timess = datetime.now()
-    print(timess)
-    print(daka_day)
     times = current_timestamp_ms = int(time.time() * 1000)
     # 构建请求头
     headers = {
